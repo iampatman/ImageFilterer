@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1568A41F2F86DE008FD385 /* FilterAffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1568A31F2F86DE008FD385 /* FilterAffect.swift */; };
+		2A4116BB1F2F839500D4B0C7 /* AffectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4116BA1F2F839500D4B0C7 /* AffectCell.swift */; };
 		2A93FFDF1F2F6C9700E2C77C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93FFDE1F2F6C9700E2C77C /* AppDelegate.swift */; };
-		2A93FFE11F2F6C9700E2C77C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93FFE01F2F6C9700E2C77C /* ViewController.swift */; };
+		2A93FFE11F2F6C9700E2C77C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93FFE01F2F6C9700E2C77C /* MainViewController.swift */; };
 		2A93FFE41F2F6C9700E2C77C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A93FFE21F2F6C9700E2C77C /* Main.storyboard */; };
 		2A93FFE61F2F6C9700E2C77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A93FFE51F2F6C9700E2C77C /* Assets.xcassets */; };
 		2A93FFE91F2F6C9700E2C77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A93FFE71F2F6C9700E2C77C /* LaunchScreen.storyboard */; };
 		2A93FFF41F2F6C9700E2C77C /* Image_FiltererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93FFF31F2F6C9700E2C77C /* Image_FiltererTests.swift */; };
+		2A93FFFF1F2F765500E2C77C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93FFFE1F2F765500E2C77C /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1568A31F2F86DE008FD385 /* FilterAffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterAffect.swift; sourceTree = "<group>"; };
+		2A4116BA1F2F839500D4B0C7 /* AffectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffectCell.swift; sourceTree = "<group>"; };
 		2A93FFDB1F2F6C9700E2C77C /* Image Filterer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Filterer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A93FFDE1F2F6C9700E2C77C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A93FFE01F2F6C9700E2C77C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A93FFE01F2F6C9700E2C77C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2A93FFE31F2F6C9700E2C77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A93FFE51F2F6C9700E2C77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A93FFE81F2F6C9700E2C77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		2A93FFEF1F2F6C9700E2C77C /* Image FiltererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image FiltererTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A93FFF31F2F6C9700E2C77C /* Image_FiltererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_FiltererTests.swift; sourceTree = "<group>"; };
 		2A93FFF51F2F6C9700E2C77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A93FFFE1F2F765500E2C77C /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				2A93FFDE1F2F6C9700E2C77C /* AppDelegate.swift */,
-				2A93FFE01F2F6C9700E2C77C /* ViewController.swift */,
+				2A93FFE01F2F6C9700E2C77C /* MainViewController.swift */,
 				2A93FFE21F2F6C9700E2C77C /* Main.storyboard */,
 				2A93FFE51F2F6C9700E2C77C /* Assets.xcassets */,
 				2A93FFE71F2F6C9700E2C77C /* LaunchScreen.storyboard */,
 				2A93FFEA1F2F6C9700E2C77C /* Info.plist */,
+				2A93FFFE1F2F765500E2C77C /* MainViewModel.swift */,
+				2A4116BA1F2F839500D4B0C7 /* AffectCell.swift */,
+				2A1568A31F2F86DE008FD385 /* FilterAffect.swift */,
 			);
 			path = "Image Filterer";
 			sourceTree = "<group>";
@@ -201,7 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A93FFE11F2F6C9700E2C77C /* ViewController.swift in Sources */,
+				2A1568A41F2F86DE008FD385 /* FilterAffect.swift in Sources */,
+				2A4116BB1F2F839500D4B0C7 /* AffectCell.swift in Sources */,
+				2A93FFE11F2F6C9700E2C77C /* MainViewController.swift in Sources */,
+				2A93FFFF1F2F765500E2C77C /* MainViewModel.swift in Sources */,
 				2A93FFDF1F2F6C9700E2C77C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VBEVMP5SLB;
 				INFOPLIST_FILE = "Image Filterer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.trungnba.Image-Filterer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VBEVMP5SLB;
 				INFOPLIST_FILE = "Image Filterer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.trungnba.Image-Filterer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +426,7 @@
 				2A93FFFA1F2F6C9700E2C77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A93FFFB1F2F6C9700E2C77C /* Build configuration list for PBXNativeTarget "Image FiltererTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				2A93FFFD1F2F6C9700E2C77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
