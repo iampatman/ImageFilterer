@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Select Photo-->
+        <!--Image Filterer-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Image_Filterer" customModuleProvider="target" sceneMemberID="viewController">
@@ -94,7 +94,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Select Photo" id="bTr-PP-2Xl"/>
+                    <navigationItem key="navigationItem" title="Image Filterer" id="bTr-PP-2Xl">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="mMd-Ah-Nrm"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="affectsCV" destination="cPn-nH-hNT" id="R2Q-BK-CE3"/>
                         <outlet property="thumbnailImageView" destination="mAs-ej-egS" id="Xkt-RC-eC6"/>

@@ -47,7 +47,9 @@ class MainViewController: UIViewController, UINavigationControllerDelegate {
 	}
 	
 	
-	
+	@IBAction func saveImageClicked() {
+		
+	}
 	
 	@IBAction func selectPhoto(){
 		let picker = UIImagePickerController()
